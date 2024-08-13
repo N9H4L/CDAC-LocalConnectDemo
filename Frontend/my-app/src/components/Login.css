@@ -1,0 +1,81 @@
+/* Login.css */
+
+
+.login-container {
+  /* max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* background-color: #ffffff; */
+  /* background-image: url(../Images/BlueYelllowBG.avif); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /* max-width: 400px;  */
+  height: 100vh;
+  /* background-color: #004add; */
+  background-image: url(../Images/LoginBG.png);
+  background-size: 100%;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffde59;
+  max-width: 380px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  max-width: 380px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 400px;
+}
+
+.signup-button:hover {
+  background-color: #1976d2;
+}
+
+.login-error {
+  color: red;
+  margin-top: 10px;
+}
